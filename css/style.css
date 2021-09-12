@@ -13,7 +13,7 @@ body {
   border: none;
 }
 .search-box {
-  border: 1px solid rgb(3, 118, 211);
+  border: 1px solid rgb(85, 152, 207);
   width: 281px;
   border-radius: 5px;
   margin: auto;
@@ -49,6 +49,8 @@ body {
   height: 150px;
 }
 .cart {
+  color: white;
+  background-color: rgb(136, 134, 134);
   width: 350px;
   /* border: 1px solid green; */
   padding: 10px;
