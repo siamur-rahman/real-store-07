@@ -3,13 +3,14 @@
 body {
   overflow-x: hidden;
   font-family: "Montserrat", sans-serif;
+  padding: 10px;
  
 }
 
 /*....................search field styles............*/
 .search-field {
   border-radius: 15px;
-  padding: 10px 10px;
+  padding: 10px 20px;
   outline: none;
 }
 .search-field:hover {
@@ -20,9 +21,10 @@ body {
   border: 1px solid rgba(0, 174, 255, 0.301);
 }
 .search-box {
-  width: 281px;
+  width: 381px;
   margin: auto;
   margin-top: 50px;
+  margin-bottom: 50px;
 }
 
 /*.................button style ..................*/
@@ -75,6 +77,13 @@ body {
 
 /*................responsive............... */
 @media only screen and (max-width: 768px) {
+  .search-box {
+    width: 100%;
+    margin: auto;
+    /* margin-top: 50px;*/
+    margin-bottom: 50px; 
+  }
+
   #all-products {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
