@@ -7,7 +7,7 @@ body {
 }
 /*....................search field styles............*/
 .search-field {
-  border-radius: 15px;
+  border-radius: 10px;
   padding: 10px 20px;
   outline: none;
 }
@@ -28,6 +28,7 @@ body {
 #btn{
   background-color: rgba(0, 174, 255, 0.301);
   color: black;
+  outline: none;
   padding: 10px 15px;
 }
 
@@ -76,6 +77,27 @@ body {
 }
 .cart-main {
   padding-right: 30px;
+}
+
+#addToCart-btn{
+  background-color: rgba(0, 174, 255, 0.356);
+  color: black;
+  outline: none;
+  border: none;
+}
+#details-btn{
+  background-color: rgba(128, 128, 128, 0.596) ;
+  color: black;
+  outline: none;
+  border: none;
+}
+#addToCart-btn:hover,#btn:hover{
+  background-color: rgb(12, 124, 62);
+  color: white;
+}
+#details-btn:hover{
+  background-color: rgb(148, 76, 29);
+  color: white;
 }
 /*................responsive............... */
 @media only screen and (max-width: 768px) {
